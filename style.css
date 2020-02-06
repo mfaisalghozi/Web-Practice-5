@@ -222,6 +222,7 @@ header .header-cases {
 
 /* MAIN STYLE */
 
+
 .index-banner {
     background-color: pink;
     width: 100%;
@@ -254,7 +255,7 @@ header .header-cases {
     font-weight: 100;
     font-style: italic;
     text-align: center;
-    margin-top: 50%;
+    margin-top: 60%;
     margin-bottom: 30%;
     text-shadow: 2px 2px 8px #111111;
 }
@@ -281,4 +282,47 @@ header .header-cases {
     line-height: 100px;
     text-align: center;
     text-transform: uppercase;
+}
+
+/* FOOTER STYLE */
+
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: #111111;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {
+    font-family: Catamaran;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+.footer-link-owner {
+    display: none;
+}
+
+.footer-sm {
+    width: 60px;
+    float: right;
+}
+
+.footer-sm img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
 }
